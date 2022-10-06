@@ -1,0 +1,12 @@
+vpc_id: vpc-01b19459b014adedf
+pubsub1id: subnet-0c13f454402070063
+pubsub2id: subnet-0c61d649ee1e6b9a5
+pubsub3id: subnet-0e8da285954359fb5
+privsub1id: subnet-0df76151368dbf52e
+privsub2id: subnet-08a3d9722d218ae03
+privsub3id: subnet-03f67e6e068270f69
+igwid: igw-04672ff351ebda262
+NATGWid: nat-0e08ede7b60504827
+pubRTid: rtb-04b9008650ef65e01
+privRTid: rtb-0cb843e2c9ce08ef0
+cacheable: yes
