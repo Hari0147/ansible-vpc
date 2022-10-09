@@ -1,0 +1,9 @@
+---
+- name: vpro-ec2-stack
+  hosts: localhost
+  connection: local
+  gather_facts: False
+  tasks:
+    - name: vpro-key
+      ec2_key:
+        name: vpro-key.pem
