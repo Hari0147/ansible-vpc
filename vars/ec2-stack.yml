@@ -4,6 +4,25 @@
   connection: local
   gather_facts: False
   tasks:
-    - name: vpro-key
+    - name: Import VPC setup variables
+      include_vars: vars/vpc-setup
+
+    - name: Import output variables
+      include_vars: vars/output-vars
+
+    - name: Import EC2-setup AMI's
+      include_vars: vars/vpro-stack-ami
+
+    - name: Create vpro-key
       ec2_key:
         name: vpro-key.pem
+        region: "{{region}}"
+      register: key_out
+
+    - name: copy private key
+      copy:
+        content: "{{key_out.key.private_key}}"
+        dest: /opt/vpro-key.pem
+        mode: 0600
+      when: key_out.changed
+

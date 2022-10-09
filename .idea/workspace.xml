@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d225b019-6d84-464e-8476-ad9b21f9a68f" name="Changes" comment="vpro stack instances ami">
-      <change beforePath="$PROJECT_DIR$/vpro-stack-ami" beforeDir="false" afterPath="$PROJECT_DIR$/vars/vpro-stack-ami" afterDir="false" />
+    <list default="true" id="d225b019-6d84-464e-8476-ad9b21f9a68f" name="Changes" comment=" vars vpro-stack">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vars/ec2-stack.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +36,11 @@
     "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DevOps\ansible-vpc\vars" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="ansible-vpc" />
@@ -112,7 +118,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665322638109</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" vars vpro-stack">
+      <created>1665322970069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1665322970069</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +142,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="importing bastion and vpc yml files" />
     <MESSAGE value="vpro stack instances ami" />
-    <option name="LAST_COMMIT_MESSAGE" value="vpro stack instances ami" />
+    <MESSAGE value=" vars vpro-stack" />
+    <option name="LAST_COMMIT_MESSAGE" value=" vars vpro-stack" />
   </component>
 </project>
