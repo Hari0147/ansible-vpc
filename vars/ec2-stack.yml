@@ -26,3 +26,35 @@
         mode: 0600
       when: key_out.changed
 
+    - name: Create SG for ELB-SG
+      ec2_group:
+        name: vpro-elb-sg
+        description: Allow port 80 from everywhere and all port within sg
+        region: "{{region}}"
+        vpc_id: "{{vpc_id}}"
+        rule:
+          - porto: tcp
+            from_port: 80
+            to_port: 80
+            cidr_ip: 0.0.0.0/0
+        register: vpro-elb_out
+
+    - name: Create security group for vpro stack
+      ec2_group:
+        name: vprostack-sg
+        description: Allow port 22 from everywhere and all port within sg
+        region: "{{region}}"
+        vpc_id: "{{vpc_id}}"
+        purge_rules: no
+        rules:
+          - porto: tcp
+            from_port: 80
+            to_port: 80
+            group_id: "{{vpro-elb_out}}"
+
+          - porto: tcp
+            from_port: 80
+            to_port: 80
+            group_id: "{{BastionSG_out}}"
+
+

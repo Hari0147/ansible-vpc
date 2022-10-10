@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d225b019-6d84-464e-8476-ad9b21f9a68f" name="Changes" comment=" vars vpro-stack">
+    <list default="true" id="d225b019-6d84-464e-8476-ad9b21f9a68f" name="Changes" comment="vpro key">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vars/ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vars/ec2-stack.yml" afterDir="false" />
     </list>
@@ -125,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665322970069</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="vpro key">
+      <created>1665328157019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665328157019</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,6 +150,7 @@
     <MESSAGE value="importing bastion and vpc yml files" />
     <MESSAGE value="vpro stack instances ami" />
     <MESSAGE value=" vars vpro-stack" />
-    <option name="LAST_COMMIT_MESSAGE" value=" vars vpro-stack" />
+    <MESSAGE value="vpro key" />
+    <option name="LAST_COMMIT_MESSAGE" value="vpro key" />
   </component>
 </project>
