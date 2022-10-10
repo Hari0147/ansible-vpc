@@ -63,6 +63,13 @@
         group_id: "{{BastionSG_out.group_id}}"
       register: bastionhost_out
 
+    - name: Insert/update bastionSG_out into vars/output_vars
+          blockinfile:
+            path: vars/output_vars
+            backup: yes
+            block: |
+              BastionSGid: {{BastionSG_out.group_id}}
+
 
 
 
