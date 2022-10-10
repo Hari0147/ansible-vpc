@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d225b019-6d84-464e-8476-ad9b21f9a68f" name="Changes" comment="vpro key">
+    <list default="true" id="d225b019-6d84-464e-8476-ad9b21f9a68f" name="Changes" comment="adding elb-sg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vars/ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/vars/ec2-stack.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/ec2-stack.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ec2-stack.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DevOps\ansible-vpc\vars" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DevOps\ansible-vpc" />
     </key>
   </component>
   <component name="RunManager">
@@ -132,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665328157019</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adding elb-sg">
+      <created>1665367776593</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665367776593</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -151,6 +161,7 @@
     <MESSAGE value="vpro stack instances ami" />
     <MESSAGE value=" vars vpro-stack" />
     <MESSAGE value="vpro key" />
-    <option name="LAST_COMMIT_MESSAGE" value="vpro key" />
+    <MESSAGE value="adding elb-sg" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding elb-sg" />
   </component>
 </project>
