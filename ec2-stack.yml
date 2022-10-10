@@ -33,7 +33,7 @@
         region: "{{region}}"
         vpc_id: "{{vpc_id}}"
         rules:
-          - porto: tcp
+          - proto: tcp
             from_port: 80
             to_port: 80
             cidr_ip: 0.0.0.0/0
@@ -47,7 +47,7 @@
         vpc_id: "{{vpc_id}}"
         purge_rules: no
         rules:
-          - porto: tcp
+          - proto: tcp
             from_port: 80
             to_port: 80
             group_id: "{{vproelb_out}}"
