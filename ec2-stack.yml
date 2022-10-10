@@ -37,7 +37,7 @@
             from_port: 80
             to_port: 80
             cidr_ip: 0.0.0.0/0
-      register: vpro-elb_out
+      register: vproelb_out
 
     - name: Create security group for vpro stack
       ec2_group:
@@ -50,7 +50,7 @@
           - porto: tcp
             from_port: 80
             to_port: 80
-            group_id: "{{vpro-elb_out}}"
+            group_id: "{{vproelb_out}}"
 
           - porto: tcp
             from_port: 80
