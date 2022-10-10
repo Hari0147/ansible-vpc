@@ -4,6 +4,7 @@
     <list default="true" id="d225b019-6d84-464e-8476-ad9b21f9a68f" name="Changes" comment="adding elb-sg">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bastion.yml" beforeDir="false" afterPath="$PROJECT_DIR$/bastion.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vars/output_vars" beforeDir="false" afterPath="$PROJECT_DIR$/vars/output_vars" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665371135211</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding elb-sg">
+      <created>1665372552986</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1665372552986</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
